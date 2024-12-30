@@ -1,25 +1,53 @@
 package com.ecommerce.demo.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 import java.util.Map;
 
 @Entity
+@Table(name = "customers")
 public class Customer {
   @Id // Primary key annotation
   @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private  Integer customerId;
+  @Column(name = "customer_id")
+  private  Long customerId;
+
+  @Column(name = "first_name")
   private  String firstName;
+
+  @Column(name = "last_name")
   private String lastName;
+
+  @Column(name = "mobile_no")
   private String mobileNo;
+
+  @Column(name = "email_id")
   private String emailID;
   private String password;
+
+  @Column(name = "created_on")
   private LocalDateTime createdOn;
-  private Map<String, String> addresses;
+//  private Map<String, String> addresses;
+
+  public Customer(){
+
+  }
+  public Customer(String firstName, String lastName, String mobileNo, String emailID, String password){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.mobileNo = mobileNo;
+    this.emailID = emailID;
+    this.password = password;
+  }
+
+  public Long getCustomerId() {
+    return customerId;
+  }
+
+  public void setCustomerId(Long customerId) {
+    this.customerId = customerId;
+  }
 
   public String getFirstName(){
     return this.firstName;
@@ -59,5 +87,13 @@ public class Customer {
 
   public void setPassword(String password){
     this.password = password;
+  }
+
+  public LocalDateTime getCreatedOn() {
+    return createdOn;
+  }
+
+  public void setCreatedOn(LocalDateTime createdOn) {
+    this.createdOn = createdOn;
   }
 }
