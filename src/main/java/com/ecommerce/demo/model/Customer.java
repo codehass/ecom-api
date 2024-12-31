@@ -39,6 +39,7 @@ public class Customer {
     this.mobileNo = mobileNo;
     this.emailID = emailID;
     this.password = password;
+    this.createdOn = LocalDateTime.now();
   }
 
   public Long getCustomerId() {

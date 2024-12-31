@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73c5e4fc-7528-4336-bc73-b656c99b4f2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/repository/CustomerRepository.java" afterDir="false" />
+    <list default="true" id="73c5e4fc-7528-4336-bc73-b656c99b4f2e" name="Changes" comment="more changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/controller/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Customer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,55 @@
       <option name="presentableId" value="Default" />
       <updated>1734638851141</updated>
     </task>
+    <task id="LOCAL-00001" summary="add column names and add getters and setters">
+      <option name="closed" value="true" />
+      <created>1735549410985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735549410985</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add get customers endpoint and get customer by id endpoint">
+      <option name="closed" value="true" />
+      <created>1735549478163</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735549478163</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create customer repository">
+      <option name="closed" value="true" />
+      <created>1735549502768</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735549502768</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add data rest dependency">
+      <option name="closed" value="true" />
+      <created>1735549526821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735549526821</updated>
+    </task>
+    <task id="LOCAL-00005" summary="more changes">
+      <option name="closed" value="true" />
+      <created>1735549571221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735549571221</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add column names and add getters and setters" />
+    <MESSAGE value="add get customers endpoint and get customer by id endpoint" />
+    <MESSAGE value="create customer repository" />
+    <MESSAGE value="add data rest dependency" />
+    <MESSAGE value="more changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="more changes" />
   </component>
 </project>
