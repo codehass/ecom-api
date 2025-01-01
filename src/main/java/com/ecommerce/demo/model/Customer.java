@@ -3,6 +3,7 @@ package com.ecommerce.demo.model;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
+import java.util.HashMap;
 import java.util.Map;
 
 @Entity
@@ -28,7 +29,8 @@ public class Customer {
 
   @Column(name = "created_on")
   private LocalDateTime createdOn;
-//  private Map<String, String> addresses;
+  @OneToMany(mappedBy = "address", cascade = CascadeType.ALL, orphanRemoval = true)
+  private Map<String, String> addresses = new HashMap<String, String>();
 
   public Customer(){
 
