@@ -29,8 +29,8 @@ public class Customer {
 
   @Column(name = "created_on")
   private LocalDateTime createdOn;
-  @OneToMany(mappedBy = "address", cascade = CascadeType.ALL, orphanRemoval = true)
-  private Map<String, String> addresses = new HashMap<String, String>();
+  @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, orphanRemoval = true)
+  private Map<String, Address> addresses = new HashMap<String, Address>();
 
   public Customer(){
 

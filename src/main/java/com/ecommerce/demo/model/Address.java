@@ -1,7 +1,11 @@
 package com.ecommerce.demo.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Table(name = "addresses")
 public class Address {
@@ -16,24 +20,70 @@ public class Address {
   private String state;
   private String pincode;
   @ManyToOne(fetch =  FetchType.LAZY)
-  @JoinColumn(name = "address_id")
+  @JoinColumn(name = "customer_id")
   private Customer customer;
 
+  public String getStreetNo() {
+    return streetNo;
+  }
 
-
-  Address(String streetNo,
-          String buildingName,
-          String locality,
-          String city,
-          String state,
-          String pincode,
-          Customer customer){
+  public void setStreetNo(String streetNo) {
     this.streetNo = streetNo;
-    this.buildingName = streetNo;
+  }
+
+  public Long getAddressId() {
+    return addressId;
+  }
+
+  public void setAddressId(Long addressId) {
+    this.addressId = addressId;
+  }
+
+  public String getBuildingName() {
+    return buildingName;
+  }
+
+  public void setBuildingName(String buildingName) {
+    this.buildingName = buildingName;
+  }
+
+  public String getLocality() {
+    return locality;
+  }
+
+  public void setLocality(String locality) {
     this.locality = locality;
+  }
+
+  public String getCity() {
+    return city;
+  }
+
+  public void setCity(String city) {
     this.city = city;
+  }
+
+  public String getState() {
+    return state;
+  }
+
+  public void setState(String state) {
     this.state = state;
+  }
+
+  public String getPincode() {
+    return pincode;
+  }
+
+  public void setPincode(String pincode) {
     this.pincode = pincode;
+  }
+
+  public Customer getCustomer() {
+    return customer;
+  }
+
+  public void setCustomer(Customer customer) {
     this.customer = customer;
   }
 }
