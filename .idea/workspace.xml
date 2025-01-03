@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73c5e4fc-7528-4336-bc73-b656c99b4f2e" name="Changes" comment="update address model">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Address.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Customer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
