@@ -19,17 +19,10 @@ public class Address {
   private String city;
   private String state;
   private String pincode;
-  @ManyToOne(fetch =  FetchType.LAZY)
+
+  @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "customer_id")
   private Customer customer;
-
-  public String getStreetNo() {
-    return streetNo;
-  }
-
-  public void setStreetNo(String streetNo) {
-    this.streetNo = streetNo;
-  }
 
   public Long getAddressId() {
     return addressId;
@@ -37,6 +30,14 @@ public class Address {
 
   public void setAddressId(Long addressId) {
     this.addressId = addressId;
+  }
+
+  public String getStreetNo() {
+    return streetNo;
+  }
+
+  public void setStreetNo(String streetNo) {
+    this.streetNo = streetNo;
   }
 
   public String getBuildingName() {
