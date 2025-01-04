@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73c5e4fc-7528-4336-bc73-b656c99b4f2e" name="Changes" comment="update address model">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Order.java" afterDir="false" />
+    <list default="true" id="73c5e4fc-7528-4336-bc73-b656c99b4f2e" name="Changes" comment="Create Order model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/CartItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Address.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Customer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +126,63 @@
       <option name="project" value="LOCAL" />
       <updated>1735757885651</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="create order class">
+      <option name="closed" value="true" />
+      <created>1735890558987</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735890558987</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add getter and setter to address model">
+      <option name="closed" value="true" />
+      <created>1735890655747</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735890655747</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update address and order getters and setters add relation">
+      <option name="closed" value="true" />
+      <created>1735890751691</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735890751692</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update streetNo getter and setter">
+      <option name="closed" value="true" />
+      <created>1735890791584</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735890791584</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Create cart model">
+      <option name="closed" value="true" />
+      <created>1735890830048</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735890830048</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Create CartItem model">
+      <option name="closed" value="true" />
+      <created>1735890842356</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735890842356</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Create Order model">
+      <option name="closed" value="true" />
+      <created>1735890853805</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735890853805</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,6 +194,13 @@
     <MESSAGE value="add post request to create new customer" />
     <MESSAGE value="update customer" />
     <MESSAGE value="update address model" />
-    <option name="LAST_COMMIT_MESSAGE" value="update address model" />
+    <MESSAGE value="create order class" />
+    <MESSAGE value="add getter and setter to address model" />
+    <MESSAGE value="update address and order getters and setters add relation" />
+    <MESSAGE value="update streetNo getter and setter" />
+    <MESSAGE value="Create cart model" />
+    <MESSAGE value="Create CartItem model" />
+    <MESSAGE value="Create Order model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Order model" />
   </component>
 </project>

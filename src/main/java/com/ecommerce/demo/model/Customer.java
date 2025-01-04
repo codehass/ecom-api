@@ -37,6 +37,10 @@ public class Customer {
   @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, orphanRemoval = true)
   private List<Order> orders = new ArrayList<Order>();
 
+  @OneToOne(cascade = CascadeType.ALL)
+  @JoinColumn(name = "cart_id", referencedColumnName = "cart_id")
+  private Cart customerCart;
+
   public Long getCustomerId() {
     return customerId;
   }
@@ -93,19 +97,27 @@ public class Customer {
     this.createdOn = createdOn;
   }
 
-  public HashMap<String, Address> getAddresses() {
-    return (HashMap<String, Address>) addresses;
+  public Map<String, Address> getAddresses() {
+    return addresses;
   }
 
   public void setAddresses(Map<String, Address> addresses) {
     this.addresses = addresses;
   }
 
-  public ArrayList<Order> getOrders() {
-    return (ArrayList<Order>) orders;
+  public List<Order> getOrders() {
+    return orders;
   }
 
-  public void setOrders(ArrayList<Order> orders) {
+  public void setOrders(List<Order> orders) {
     this.orders = orders;
+  }
+
+  public Cart getCustomerCart() {
+    return customerCart;
+  }
+
+  public void setCustomerCart(Cart customerCart) {
+    this.customerCart = customerCart;
   }
 }
