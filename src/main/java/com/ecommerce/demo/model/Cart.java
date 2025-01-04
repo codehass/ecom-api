@@ -10,13 +10,49 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "carts")
+//@Table(name = "carts")
 public class Cart {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "cart_id")
   private Long cardId;
-  List<CartItem> cartItems = new ArrayList<CartItem>();
   private Double cartTotal;
+
+//  @OneToMany(mappedBy = "cart", cascade = CascadeType.ALL, orphanRemoval = true)
+//  private List<CartItem> cartItems = new ArrayList<CartItem>();
+
+  @OneToOne(mappedBy = "customerCart")
   private Customer customer;
+
+  public Long getCardId() {
+    return cardId;
+  }
+
+  public void setCardId(Long cardId) {
+    this.cardId = cardId;
+  }
+
+//  public List<CartItem> getCartItems() {
+//    return cartItems;
+//  }
+//
+//  public void setCartItems(List<CartItem> cartItems) {
+//    this.cartItems = cartItems;
+//  }
+
+  public Double getCartTotal() {
+    return cartTotal;
+  }
+
+  public void setCartTotal(Double cartTotal) {
+    this.cartTotal = cartTotal;
+  }
+
+  public Customer getCustomer() {
+    return customer;
+  }
+
+  public void setCustomer(Customer customer) {
+    this.customer = customer;
+  }
 }
