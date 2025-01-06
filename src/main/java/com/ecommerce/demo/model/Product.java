@@ -18,6 +18,9 @@ public class Product {
   private String Description;
   private String manufacture;
   private Integer quantity;
+
+  @ManyToOne(fetch = FetchType.LAZY)
+  @JoinColumn(name = "seller_id")
   private Seller seller;
 
   public Long getProductId() {
