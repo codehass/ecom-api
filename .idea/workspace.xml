@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73c5e4fc-7528-4336-bc73-b656c99b4f2e" name="Changes" comment="Create Order model">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/CartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Customer.class" afterDir="false" />
-    </list>
+    <list default="true" id="73c5e4fc-7528-4336-bc73-b656c99b4f2e" name="Changes" comment="Create UserSession model" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +176,39 @@
       <option name="project" value="LOCAL" />
       <updated>1735890853805</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Create Product model">
+      <option name="closed" value="true" />
+      <created>1736148621747</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1736148621747</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Create Seller model">
+      <option name="closed" value="true" />
+      <created>1736148628317</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1736148628317</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Create UserSession model">
+      <option name="closed" value="true" />
+      <created>1736148643696</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1736148643696</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Create UserSession model">
+      <option name="closed" value="true" />
+      <created>1736148657296</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1736148657296</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,6 +227,9 @@
     <MESSAGE value="Create cart model" />
     <MESSAGE value="Create CartItem model" />
     <MESSAGE value="Create Order model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Order model" />
+    <MESSAGE value="Create Product model" />
+    <MESSAGE value="Create Seller model" />
+    <MESSAGE value="Create UserSession model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create UserSession model" />
   </component>
 </project>
