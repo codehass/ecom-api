@@ -5,7 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -21,6 +23,8 @@ public class Seller {
   private String mobileNo;
   private String email;
   private String password;
+
+  @OneToMany(mappedBy = "seller", cascade = CascadeType.ALL, orphanRemoval = true)
   private List<Product> products = new ArrayList<Product>();
 
   public Long getSellerId() {
