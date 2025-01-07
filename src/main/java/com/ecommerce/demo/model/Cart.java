@@ -10,7 +10,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-//@Table(name = "carts")
+@Table(name = "carts")
 public class Cart {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,14 +24,6 @@ public class Cart {
   @OneToOne(mappedBy = "customerCart")
   private Customer customer;
 
-  public Long getCardId() {
-    return cardId;
-  }
-
-  public void setCardId(Long cardId) {
-    this.cardId = cardId;
-  }
-
 //  public List<CartItem> getCartItems() {
 //    return cartItems;
 //  }
@@ -39,6 +31,14 @@ public class Cart {
 //  public void setCartItems(List<CartItem> cartItems) {
 //    this.cartItems = cartItems;
 //  }
+
+  public Long getCardId() {
+    return cardId;
+  }
+
+  public void setCardId(Long cardId) {
+    this.cardId = cardId;
+  }
 
   public Double getCartTotal() {
     return cartTotal;
