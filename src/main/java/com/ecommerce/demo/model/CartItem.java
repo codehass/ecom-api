@@ -12,6 +12,24 @@ public class CartItem {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "cart_item_id")
   private Long cardItemId;
+  //private Product product;
   private Integer cardItemQuantity;
+
+  public Long getCardItemId() {
+    return cardItemId;
+  }
+
+  public void setCardItemId(Long cardItemId) {
+    this.cardItemId = cardItemId;
+  }
+
+  public Integer getCardItemQuantity() {
+    return cardItemQuantity;
+  }
+
+  public void setCardItemQuantity(Integer cardItemQuantity) {
+    this.cardItemQuantity = cardItemQuantity;
+  }
+
 
 }

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73c5e4fc-7528-4336-bc73-b656c99b4f2e" name="Changes" comment="Create UserSession model" />
+    <list default="true" id="73c5e4fc-7528-4336-bc73-b656c99b4f2e" name="Changes" comment="Add ManyToOne relation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/CartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Customer.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +215,47 @@
       <option name="project" value="LOCAL" />
       <updated>1736148657296</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Create getters and setter to Product model">
+      <option name="closed" value="true" />
+      <created>1736148798191</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1736148798191</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Create getters and setter to Seller model">
+      <option name="closed" value="true" />
+      <created>1736148807934</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1736148807934</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Create getters and setter to UserSession model">
+      <option name="closed" value="true" />
+      <created>1736148821739</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1736148821739</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add OneToMany relation">
+      <option name="closed" value="true" />
+      <created>1736149154654</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1736149154654</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add ManyToOne relation">
+      <option name="closed" value="true" />
+      <created>1736149170702</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1736149170702</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,6 +277,11 @@
     <MESSAGE value="Create Product model" />
     <MESSAGE value="Create Seller model" />
     <MESSAGE value="Create UserSession model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create UserSession model" />
+    <MESSAGE value="Create getters and setter to Product model" />
+    <MESSAGE value="Create getters and setter to Seller model" />
+    <MESSAGE value="Create getters and setter to UserSession model" />
+    <MESSAGE value="Add OneToMany relation" />
+    <MESSAGE value="Add ManyToOne relation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ManyToOne relation" />
   </component>
 </project>
