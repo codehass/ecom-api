@@ -38,7 +38,7 @@ public class Customer {
   private List<Order> orders = new ArrayList<Order>();
 
   @OneToOne(cascade = CascadeType.ALL)
-  @JoinColumn(name = "cart_id", referencedColumnName = "cart_id")
+  @JoinColumn(name = "cart_id", referencedColumnName = "cart_id", unique = true)
   private Cart customerCart;
 
   public Long getCustomerId() {

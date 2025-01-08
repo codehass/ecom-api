@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73c5e4fc-7528-4336-bc73-b656c99b4f2e" name="Changes" comment="Add ManyToOne relation">
+    <list default="true" id="73c5e4fc-7528-4336-bc73-b656c99b4f2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/enums/OrderStatusValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/CartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/CartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Address.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Order.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -39,14 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EcomApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EcomApiApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "promo.database"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ecom-api" />
@@ -255,12 +261,42 @@
       <option name="project" value="LOCAL" />
       <updated>1736149170702</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="change table name">
+      <option name="closed" value="true" />
+      <created>1736267767623</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1736267767623</updated>
+    </task>
+    <task id="LOCAL-00025" summary="change cartid getter and setter">
+      <option name="closed" value="true" />
+      <created>1736267796753</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1736267796753</updated>
+    </task>
+    <task id="LOCAL-00026" summary="change setter and getter cartItem">
+      <option name="closed" value="true" />
+      <created>1736267828219</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1736267828220</updated>
+    </task>
+    <task id="LOCAL-00027" summary="change more getters and setters to cartItem">
+      <option name="closed" value="true" />
+      <created>1736267851958</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1736267851958</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add column names and add getters and setters" />
-    <MESSAGE value="add get customers endpoint and get customer by id endpoint" />
     <MESSAGE value="create customer repository" />
     <MESSAGE value="add data rest dependency" />
     <MESSAGE value="more changes" />
@@ -282,6 +318,10 @@
     <MESSAGE value="Create getters and setter to UserSession model" />
     <MESSAGE value="Add OneToMany relation" />
     <MESSAGE value="Add ManyToOne relation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ManyToOne relation" />
+    <MESSAGE value="change table name" />
+    <MESSAGE value="change cartid getter and setter" />
+    <MESSAGE value="change setter and getter cartItem" />
+    <MESSAGE value="change more getters and setters to cartItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="change more getters and setters to cartItem" />
   </component>
 </project>
