@@ -19,6 +19,8 @@ public class Order {
   private Long orderId;
   @Column(name = "order_date")
   private LocalDateTime orderDate;
+  @Enumerated(EnumType.STRING)
+  @Column(name = "order_status")
   private OrderStatusValues orderStatus;
   private Double total;
   //private CreditCard cardNumber;
@@ -26,7 +28,7 @@ public class Order {
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "customer_id")
   private Customer customer;
-  //ManyToMany relation
+  //Add ManyToMany relation
   private List<CartItem> orderedItems;
   // OneToOne
   @OneToOne

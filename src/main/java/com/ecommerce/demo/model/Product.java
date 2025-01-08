@@ -1,5 +1,7 @@
 package com.ecommerce.demo.model;
 
+import com.ecommerce.demo.model.enums.Category;
+import com.ecommerce.demo.model.enums.ProductStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
@@ -15,10 +17,15 @@ public class Product {
   private Long productId;
   private String productName;
   private Double price;
-  private String Description;
+  private String description;
   private String manufacture;
   private Integer quantity;
-
+  @Enumerated(EnumType.STRING)
+  @Column(name = "category")
+  private Category category;
+  @Enumerated(EnumType.STRING)
+  @Column(name = "status")
+  private ProductStatus status;
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "seller_id")
   private Seller seller;
@@ -31,36 +38,28 @@ public class Product {
     this.productId = productId;
   }
 
-  public String getProductName() {
-    return productName;
+  public Seller getSeller() {
+    return seller;
   }
 
-  public void setProductName(String productName) {
-    this.productName = productName;
+  public void setSeller(Seller seller) {
+    this.seller = seller;
   }
 
-  public Double getPrice() {
-    return price;
+  public ProductStatus getStatus() {
+    return status;
   }
 
-  public void setPrice(Double price) {
-    this.price = price;
+  public void setStatus(ProductStatus status) {
+    this.status = status;
   }
 
-  public String getDescription() {
-    return Description;
+  public Category getCategory() {
+    return category;
   }
 
-  public void setDescription(String description) {
-    Description = description;
-  }
-
-  public String getManufacture() {
-    return manufacture;
-  }
-
-  public void setManufacture(String manufacture) {
-    this.manufacture = manufacture;
+  public void setCategory(Category category) {
+    this.category = category;
   }
 
   public Integer getQuantity() {
@@ -71,11 +70,35 @@ public class Product {
     this.quantity = quantity;
   }
 
-  public Seller getSeller() {
-    return seller;
+  public String getManufacture() {
+    return manufacture;
   }
 
-  public void setSeller(Seller seller) {
-    this.seller = seller;
+  public void setManufacture(String manufacture) {
+    this.manufacture = manufacture;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+
+  public void setDescription(String description) {
+    this.description = description;
+  }
+
+  public Double getPrice() {
+    return price;
+  }
+
+  public void setPrice(Double price) {
+    this.price = price;
+  }
+
+  public String getProductName() {
+    return productName;
+  }
+
+  public void setProductName(String productName) {
+    this.productName = productName;
   }
 }
