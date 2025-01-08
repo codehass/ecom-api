@@ -21,7 +21,7 @@ public class Address {
   private String pincode;
 
   @ManyToOne(fetch = FetchType.LAZY)
-  @JoinColumn(name = "customer_id")
+  @JoinColumn(name = "customer_id", unique = true)
   private Customer customer;
 
   public Long getAddressId() {
