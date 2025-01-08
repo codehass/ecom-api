@@ -41,12 +41,28 @@ public class Order {
     this.orderId = orderId;
   }
 
-  public LocalDateTime getOrderDate() {
-    return orderDate;
+  public Address getAddress() {
+    return address;
   }
 
-  public void setOrderDate(LocalDateTime orderDate) {
-    this.orderDate = orderDate;
+  public void setAddress(Address address) {
+    this.address = address;
+  }
+
+  public List<CartItem> getOrderedItems() {
+    return orderedItems;
+  }
+
+  public void setOrderedItems(List<CartItem> orderedItems) {
+    this.orderedItems = orderedItems;
+  }
+
+  public Customer getCustomer() {
+    return customer;
+  }
+
+  public void setCustomer(Customer customer) {
+    this.customer = customer;
   }
 
   public Double getTotal() {
@@ -57,11 +73,19 @@ public class Order {
     this.total = total;
   }
 
-  public Customer getCustomer() {
-    return customer;
+  public OrderStatusValues getOrderStatus() {
+    return orderStatus;
   }
 
-  public void setCustomer(Customer customer) {
-    this.customer = customer;
+  public void setOrderStatus(OrderStatusValues orderStatus) {
+    this.orderStatus = orderStatus;
+  }
+
+  public LocalDateTime getOrderDate() {
+    return orderDate;
+  }
+
+  public void setOrderDate(LocalDateTime orderDate) {
+    this.orderDate = orderDate;
   }
 }
