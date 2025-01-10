@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73c5e4fc-7528-4336-bc73-b656c99b4f2e" name="Changes" comment="add new getters and setters to Order model">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/enums/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/enums/ProductStatus.java" afterDir="false" />
+    <list default="true" id="73c5e4fc-7528-4336-bc73-b656c99b4f2e" name="Changes" comment="add attributes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/CartItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/demo/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/CartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/demo/model/Product.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,13 +329,34 @@
       <option name="project" value="LOCAL" />
       <updated>1736335165632</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="create category enum">
+      <option name="closed" value="true" />
+      <created>1736337117663</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1736337117663</updated>
+    </task>
+    <task id="LOCAL-00034" summary="create product status enum">
+      <option name="closed" value="true" />
+      <created>1736337130570</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1736337130570</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add attributes">
+      <option name="closed" value="true" />
+      <created>1736337156859</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1736337156859</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update address model" />
-    <MESSAGE value="create order class" />
-    <MESSAGE value="add getter and setter to address model" />
     <MESSAGE value="update address and order getters and setters add relation" />
     <MESSAGE value="update streetNo getter and setter" />
     <MESSAGE value="Create cart model" />
@@ -357,6 +379,9 @@
     <MESSAGE value="create order status enums" />
     <MESSAGE value="add more attributes to order model" />
     <MESSAGE value="add new getters and setters to Order model" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new getters and setters to Order model" />
+    <MESSAGE value="create category enum" />
+    <MESSAGE value="create product status enum" />
+    <MESSAGE value="add attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add attributes" />
   </component>
 </project>

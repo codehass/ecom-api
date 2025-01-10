@@ -29,7 +29,7 @@ public class Order {
   @JoinColumn(name = "customer_id")
   private Customer customer;
   //Add ManyToMany relation
-  private List<CartItem> orderedItems;
+//  private List<CartItem> orderedItems;
   // OneToOne
   @OneToOne
   @JoinColumn(name = "address_id",referencedColumnName = "address_id", unique = true)
@@ -51,13 +51,13 @@ public class Order {
     this.address = address;
   }
 
-  public List<CartItem> getOrderedItems() {
-    return orderedItems;
-  }
-
-  public void setOrderedItems(List<CartItem> orderedItems) {
-    this.orderedItems = orderedItems;
-  }
+//  public List<CartItem> getOrderedItems() {
+//    return orderedItems;
+//  }
+//
+//  public void setOrderedItems(List<CartItem> orderedItems) {
+//    this.orderedItems = orderedItems;
+//  }
 
   public Customer getCustomer() {
     return customer;
