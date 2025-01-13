@@ -18,19 +18,21 @@ public class Cart {
   private Long cardId;
   private Double cartTotal;
 
-//  @OneToMany(mappedBy = "cart", cascade = CascadeType.ALL, orphanRemoval = true)
-//  private List<CartItem> cartItems = new ArrayList<CartItem>();
+//  @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+//  @JoinColumn(name = "cart_id", referencedColumnName = "cart_id")
+  @OneToMany
+  private List<CartItem> cartItems = new ArrayList<CartItem>();
 
   @OneToOne(mappedBy = "customerCart")
   private Customer customer;
 
-//  public List<CartItem> getCartItems() {
-//    return cartItems;
-//  }
-//
-//  public void setCartItems(List<CartItem> cartItems) {
-//    this.cartItems = cartItems;
-//  }
+  public List<CartItem> getCartItems() {
+    return cartItems;
+  }
+
+  public void setCartItems(List<CartItem> cartItems) {
+    this.cartItems = cartItems;
+  }
 
   public Long getCardId() {
     return cardId;
